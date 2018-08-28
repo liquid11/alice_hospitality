@@ -257,6 +257,7 @@ textarea {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: transparent !important;
+   
 }
 
 * {
@@ -272,6 +273,10 @@ margin-right: 150px; */
     margin-left: 16px;
     margin-right: 13px; */
     /* padding-left: 14px; */
+    margin: 0 auto;
+    max-width: 1440px;
+   
+
 }
 
 .header {
@@ -280,6 +285,7 @@ margin-right: 150px; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 1440px;
 }
 
 .header .header-wrapper {
@@ -446,11 +452,9 @@ margin-right: 150px; */
     background-size: 270px 351px;
 }
 
-.growing {}
-
 .growing-wrapper {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1230px;
     overflow: hidden;
 }
 
@@ -460,6 +464,11 @@ margin-right: 150px; */
 
 .growing-item {
     float: left;
+    padding-left: 20px;
+    width: 151px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* text-align: center; */
     /* padding: 10px; */
     /*height: 58px; 
     /* font-family: Roboto;
@@ -473,12 +482,11 @@ margin-right: 150px; */
 }
 
 .growing-item p {
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 .Hoteliers {
-    width: 100px;
-    height: 58px;
+    /* height: 58px; */
     font-family: Roboto;
     font-size: 19px;
     font-weight: 300;
@@ -498,4 +506,182 @@ margin-right: 150px; */
 
 .line-below {
     width: 1440px;
+}
+
+.width-150 {
+    width: 171px;
+}
+
+.growing-item a {
+    text-decoration: none;
+}
+
+.enhance {
+    /* background-image: url("rectangle-1@2x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1440; */
+    overflow: hidden;
+    /* background-color:#f7295c; */
+}
+
+.enhance-wrapper {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.enhance h3 {
+    width: 778px;
+    height: 88px;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #002836;
+}
+
+.Hoteliers-create-hos .text-style-1 {
+    color: #019bb3;
+}
+
+.enhance p {
+    width: 780px;
+    height: 56px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #002836;
+}
+
+.enhance p span {
+    font-weight: bold;
+}
+
+.enhance div img {
+    width: 1188px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.partner-choice-wrapper {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.partner-choice h3 {
+    width: 671px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #002836;
+}
+
+.partner-choice .text-black {
+    color: black;
+    text-align: center;
+}
+
+.partner-choice .partners {
+    display: inline-block;
+}
+
+.partner-choice ul li {
+    float: left;
+}
+
+.partner-choice ul li .sales {
+    background-color: rgba(172, 240, 240, 0.5);
+    width: 199px;
+    height: 200px;
+}
+
+.partner-choice .partners {
+    padding-top: 63px;
+    padding-bottom: 109px;
+}
+
+.better {
+    overflow: hidden;
+}
+
+.better .better-wrapper {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.better h3 {
+    /* width: 671px; */
+    /* height: 52px; */
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #002836;
+}
+
+.better .better-sub-wrapper {
+    margin: 0 auto;
+    max-width: 1230px;
+    overflow: hidden;
+    padding-bottom: 110px;
+}
+
+.better .alice-offers-text {
+    width: 430px;
+    /* height: 308px; */
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #002836;
+}
+
+/* .ALICE-offers-platfor .text-style-1 {
+    font-weight: normal;
+} */
+
+.forbes {
+    background-color: #002836;
+    /* padding: 35px 0px; */
+    overflow: hidden;
+}
+
+.forbes .forbes-wrapper {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.forbes .forbes-logo {
+    border-right: solid 1px #f5f6f7;
+}
+
+.forbes-logo-text {
+    width: 388px;
+    height: 162px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: 0.1px;
+    color: #ffffff;
 }
