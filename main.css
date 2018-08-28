@@ -257,7 +257,6 @@ textarea {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: transparent !important;
-   
 }
 
 * {
@@ -275,8 +274,6 @@ margin-right: 150px; */
     /* padding-left: 14px; */
     margin: 0 auto;
     max-width: 1440px;
-   
-
 }
 
 .header {
@@ -665,12 +662,14 @@ margin-right: 150px; */
 }
 
 .forbes .forbes-wrapper {
-    margin: 0 auto;
-    max-width: 1230px;
+    /* margin: 0 auto;
+    max-width: 1230px; */
 }
 
 .forbes .forbes-logo {
     border-right: solid 1px #f5f6f7;
+    margin-top: 33px;
+    margin-bottom: 33px;
 }
 
 .forbes-logo-text {
@@ -684,4 +683,25 @@ margin-right: 150px; */
     line-height: 1.38;
     letter-spacing: 0.1px;
     color: #ffffff;
+}
+
+.forbes .gerard-text {
+    padding-top: 12px;
+    width: 593px;
+    height: 33px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    color: #ffffff;
+  
+}
+
+.award-list {
+    width: 375px;
+    color: white;
+    /* padding: 12px; */
 }
