@@ -338,6 +338,7 @@ margin-right: 150px; */
 
 .bottom-menu {
     clear: both;
+    overflow: hidden;
 }
 
 .bottom-menu .left {
@@ -386,7 +387,7 @@ margin-right: 150px; */
     width: 50px;
     height: 5px;
     background-color: #f7295c;
-    margin-bottom: 100px;
+    margin-bottom: 26px;
     /* margin-left: 14px; */
 }
 
@@ -401,12 +402,6 @@ margin-right: 150px; */
 .banner {
     overflow: hidden;
 }
-
-/* .banner-wrapper {
-    max-width: 700px;
-    margin: 0 auto;
-    overflow: hidden;
-} */
 
 .ALICE-enhances-hospi {
     width: 650px;
@@ -478,9 +473,6 @@ margin-right: 150px; */
     color: #002836; */
 }
 
-.growing-item p {
-    /* padding-right: 20px; */
-}
 
 .Hoteliers {
     /* height: 58px; */
@@ -514,12 +506,9 @@ margin-right: 150px; */
 }
 
 .enhance {
-    /* background-image: url("rectangle-1@2x.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1440; */
+  
     overflow: hidden;
-    /* background-color:#f7295c; */
+    
 }
 
 .enhance-wrapper {
@@ -528,6 +517,7 @@ margin-right: 150px; */
 }
 
 .enhance h3 {
+    padding-top: 12px;
     width: 778px;
     height: 88px;
     font-family: Roboto;
@@ -545,10 +535,11 @@ margin-right: 150px; */
 }
 
 .enhance p {
+    padding-top: 46px;
     width: 780px;
     height: 56px;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -559,6 +550,10 @@ margin-right: 150px; */
 
 .enhance p span {
     font-weight: bold;
+}
+
+.enhance .alice-intro-top {
+    padding-top: 46px;
 }
 
 .enhance div img {
@@ -604,6 +599,30 @@ margin-right: 150px; */
     height: 200px;
 }
 
+.partner-choice ul li .sales img {
+    padding-top: 12px;
+    padding-left: 10px;
+}
+
+.partner-choice ul li .sales .No-one-can-drop-the {
+    width: 157px;
+    height: 99px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #002836;
+    padding-top: 2px;
+    padding: 12px;
+}
+
+.partner-choice ul li .sales .No-one-can-drop-the .text-style-1 {
+    font-weight: bold;
+}
+
 .partner-choice .partners {
     padding-top: 63px;
     padding-bottom: 109px;
@@ -619,8 +638,7 @@ margin-right: 150px; */
 }
 
 .better h3 {
-    /* width: 671px; */
-    /* height: 52px; */
+   
     font-family: Roboto;
     font-size: 34px;
     font-weight: 300;
@@ -651,9 +669,13 @@ margin-right: 150px; */
     color: #002836;
 }
 
-/* .ALICE-offers-platfor .text-style-1 {
-    font-weight: normal;
-} */
+.better .padding-top-text {
+    padding-top: 30px;
+}
+
+.better .alice-offers-text .bolder {
+    font-weight: bold;
+}
 
 .forbes {
     background-color: #002836;
@@ -662,8 +684,8 @@ margin-right: 150px; */
 }
 
 .forbes .forbes-wrapper {
-    /* margin: 0 auto;
-    max-width: 1230px; */
+    margin: 0 auto;
+    max-width: 1230px;
 }
 
 .forbes .forbes-logo {
@@ -697,7 +719,6 @@ margin-right: 150px; */
     line-height: 1.24;
     letter-spacing: normal;
     color: #ffffff;
-  
 }
 
 .award-list {
