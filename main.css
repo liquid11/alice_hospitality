@@ -740,18 +740,17 @@ margin-right: 150px; */
 }
 
 .row {
-    /* background-image: url(https://www.aliceplatform.com/hubfs/2018Redesign/Home/Images/201806/proof-image-gth-crop.jpg?t=1529338122959); */
-    background-image: url();
-    /* background-size: contain; */
+    background-image: url(https://www.aliceplatform.com/hubfs/2018Redesign/Home/Images/201806/proof-image-gth-crop.jpg);
+    /* background-image: url(proof@2x.png); */
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    /* background-size: cover; */
     background-color: #f5f6f7;
     overflow: hidden;
 }
 
 .main {
-    padding-top: 85px;
+    padding-top: 0px;
 }
 
 .main-wrapper {
@@ -775,15 +774,13 @@ margin-right: 150px; */
 
 .content {
     margin-top: 50px;
+    overflow: hidden;
+    padding-bottom: 12px;
 }
 
 .content-wrapper {
     max-width: 1208px;
     margin: 0 auto;
-}
-
-.left {
-    float: left;
 }
 
 content .right {
@@ -810,7 +807,7 @@ content .right img {
 
 .details-numbers {
     font-family: 'Roboto', sans-serif !important;
-    font-size: 80px;
+    font-size: 57px;
     font-weight: 300;
     font-style: normal;
     font-stretch: normal;
@@ -861,8 +858,8 @@ content .right img {
     /* height: 0px; */
     /* height: auto; 
     width: auto;  */
-    height: 284px;
-    width: 302px;
+    height: 286px;
+    width: 402px;
     /* background-size: 271px 300px; */
     background-size: 100%;
     padding-top: 56px;
@@ -964,11 +961,8 @@ content .right img {
     max-width: 1393px;
     margin: 0 auto;
     /* padding: 0 40px; */
+    overflow: hidden;
 }
-
-/* .schedule-main-slider {
-    padding-top: 86px;
-} */
 
 .schedule-slider {
     background-image: url(https://cdn2.hubspot.net/hubfs/1799160/2018Redesign/Website/Products/201805/Alice%20Concierge/client-box-1@3x.png);
@@ -998,6 +992,48 @@ content .right img {
     height: auto;
     /* margin-right: auto; */
     /* width: 40%; */
+}
+
+.growth {
+    background-color: #002836;
+    /* padding: 35px 0px; */
+    overflow: hidden;
+}
+
+.growth .growth-wrapper {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.growth .alice-growth {
+    width: 671px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.growth .lorem-ipsum-dolor-si {
+    width: 750px;
+    height: 84px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.growth .building-img {
+    width: 1100px;
+    padding-bottom: 25px;
 }
 
 .aliceway-main {
